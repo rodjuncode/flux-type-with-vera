@@ -1,5 +1,20 @@
 html, body {
+  background: #f3b61f;
   margin: 0;
+  height: 100%; overflow: hidden;
+}
+
+#instructions {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15pt;
+  text-align: right;
+  width: 100%;
+  position: absolute;
+}
+
+#instructions span {
+  display: block;
+  margin: 10px;
 }
 
 canvas {
@@ -7,7 +22,3 @@ canvas {
   margin: 0;
 }
 
-h1 {
-  font-family: MuseoModerno;
-  text-transform: uppercase;
-}
